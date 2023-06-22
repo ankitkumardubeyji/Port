@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio |ANKIT KUMAR DUBEY</title>
+    <link rel="stylesheet" href="my.css">
+    <script src="https://kit.fontawesome.com/545943a9f7.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            
+            <nav>
+                <div class="logo"><img src="assets/GI.png" alt=""></div>
+                <ul id = "sidemenu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+              
+          
+            </nav>
+
+            <div class="header-text">
+                <div class="left">
+                <h1>FULL STACK WEB DEVELOPER</h1>
+                <p>Hi, I'm <span>Ankit</span><br>Dubey from India</p>
+               </div>
+
+                <div class="right">
+                    <img src="assets/ankit.jfif" alt="" height="500px" weight="500px">
+                </div>
+            </div>
+
+          
+            
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="container">
+            <div class="row">
+            <div class="left-about">
+                <img src="assets/about.jpg" alt="" height="500px" weight="500px">
+            </div>
+
+            <div class="right-about">
+              <h1>About Me</h1>
+              <p>Me Ankit kumar Dubey. I am Btech 3rd Year Cse Student studying in Techno Main Salt Lake. I have got AIr 3200 in WBJEE Entrance Exam.
+                I have got AIR 85000 in JEE Mains Entrance Exam. 
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+
+              <div class="tab-contents active-tab" id="skills">
+               <p><span>Competetive Programming</span><br>I am a C++ Competetive Coder</p>
+               <p><span>Java Developer</span><br>I am a Java Developer</p>
+               <p><span>Web Developement</span> <br>I am a Full Stack Web Developer</p>
+              </div>
+
+              <div class="tab-contents" id="experience">
+                <p><span>Leetcode</span><br>I have solved more than 500 Question on leetcode.</p>
+                <p><span>Java Developer</span><br>I have made many java projects</p>
+                <p><span>Web Developement</span>I have made websites for schools & hospitals</p>
+               </div>
+
+               <div class="tab-contents" id="education">
+                <p><span>2018</span><br>I passed my 10th board with the aggregate 90%</p>
+                <p><span>2020</span><br>I passes my 12th board with agreggate 83%</p>
+                <p><span>2025</span> <br>I completed my btech with the aggregate 9Cgpa</p>
+               </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="services">
+      <div class="container">
+        <h1>MY SERVICES</h1>
+        <div class="serve">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Developement</h2>
+            <p>I have made websites for the school colleges and hospitals</p>
+            <a href=""#">Learn More </a>
+
+        </div>
+
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Leetcode</h2>
+            <p>I have participated in many of the contests in Leetcode. My rank in leetcode is under one lakh </p>
+            <a href=""#">Learn More </a>
+        </div>
+
+        <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>JAVA DEVELOPER </h2>
+            <p>I have made many java projects </p>
+            <a href=""#">Learn More </a>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <div class="container">
+        <h1>MY WORK</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="assets/work-1.png">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p> I have made clone for various social media Apps like Facebook Instagram</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        
+        <div class="work">
+             <img src="assets/work-2.png">
+             <div class="layer">
+                <h3>Music  App</h3>
+                <p> I have made music Apps like Jio-Savvn App</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+    
+
+        
+        <div class="work">
+          <img src="assets/work-3.png">
+          <div class="layer">
+            <h3>Online Shopping  App</h3>
+            <p>I have made E-commerce Apps like Amazon</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+
+        </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="contact">
+      <div class="container">
+        
+        <div class="columns">
+          <div class="pinfo">
+            <h1> Contact Me</h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane"></i>ankitdubey1570@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>7004538716</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="assets/my-cv.pdf" download class="btn btn2">Download Cv</a>
+          </div>
+
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text"  name="Name"  placeholder="ENTER YOUR NAME " required>
+              <input type="email"  name="Email" placeholder="ENTER YOUR EMAIL" required>
+              <textarea name="Message"  rows="6" placeholder="Your Message"  required></textarea>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div>
+      </div>
+
+      </div>
+    </div>
+</body>
+
+<!-- Javascript for changing the tab contents -->
+<script>
+    /*  phle jinke sath khelna hai unhe pakar lo          */
+    var tabcontents = document.getElementsByClassName("tab-contents"); // sare ke sare tab-contents ko pakar liya
+    var tablinks = document.getElementsByClassName("tab-links");  // sare ke sare tab-links ko pakar liya
+
+    // now writing the function for all the cher char
+
+    function opentab(tabname){ // the id of the tabcontent will be passed here , which has been passed as the parameter in the function in the tablink
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");  // from all the tab-contents first removing the active-tab
+      }
+
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      event.currentTarget.classList.add("active-link"); // current target is the tab link 
+      document.getElementById(tabname).classList.add("active-tab"); // displaying the tabcontent of the tab-link whose id has been passed as the 
+      // parameter in the tab-link 
+    }
+
+
+</script>
+
+<script>
+  var sideme = document.getElementById("sidemenu");
+  console.log(sideme.innerHTML);
+  function openmenu(){
+      sideme.style.right ="0";
+  }
+
+  function closemenu(){
+      sideme.style.right="-200px"
+  }
+
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxYpL0xVON90jVd3AKhDIOe-sYdAtU49Bldx-kyEYxSp6PWSItWgqDN_l4gPhrVfY3Vng/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</html>
